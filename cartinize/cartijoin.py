@@ -1,10 +1,8 @@
 import random as r
 
 
-def carti_join(input_arr):
-    separators = [
-        r.choice([" ", "  ", "   ", "-"]) for _ in range(len(input_arr))
-    ]
+def cartijoin(input_arr):
+    separators = [r.choice([" ", "  ", "   ", "-"]) for _ in range(len(input_arr))]
 
     result = ""
     for i, item in enumerate(input_arr):
