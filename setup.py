@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.2.1'
+VERSION = '1'
 DESCRIPTION = 'Cartinese translator'
 
 setup(

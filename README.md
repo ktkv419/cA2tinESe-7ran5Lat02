@@ -12,7 +12,7 @@ pip install cartinize
 
 ```python
 from cartinize import carti
-print(carti("Hello world")) # h3L|o !fye   wo2|D  !~slime-
+print(carti("Hello world", {"emoji": False})) # h3L|o !fye   wo2|D  !~slime-
 ```
 
 _7акЖ3 ^Lit*+ ПоЗbОлЯЕт-*xo! n3pевОДИт +vampire+ рycсКnй 💫!+ н4 +💀 yaЗyk +👹+ кАР7n-+ok_
